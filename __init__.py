@@ -1,4 +1,4 @@
 DEVICE_CONST="CPU"
 
-from AgeGender.age_gender_recognition_retail_0013 import AgeGenderRecognition
-from Emo.emotions_recognition_retail_0003 import EmoRecognition
+#from AgeGenderEmo.AgeGender.age_gender_recognition_retail_0013 import AgeGenderRecognition
+#from AgeGenderEmo.Emo.emotions_recognition_retail_0003 import EmoRecognition

@@ -7,6 +7,10 @@ import cv2
 import numpy as np
 import json
 
+AgeGenderEmoPath = os.path.abspath(os.path.join(__file__,"../../..")) #путь до директории, в которой находится пакет детектора 
+import sys
+sys.path.append(AgeGenderEmoPath) #добавляем в окружение путь до директории
+
 from AgeGenderEmo import DEVICE_CONST
 
 ProjectPath = os.path.dirname(os.path.abspath(__file__))
